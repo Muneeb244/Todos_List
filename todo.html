@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main class="parent">
+        <h1 class="heading">
+            To-do's List
+        </h1>
+        <div class="input">
+            <div class="child1">
+                <input type="text" placeholder="Enter your to-do here" id="text">
+                <button class="btn">
+                    <i class="fa fa-plus"></i>
+                    <!-- <span>&#43;</span> -->
+                </button>
+            </div>
+
+            <select id="drop-down">
+                <option value="all">All</option>
+                <option value="comp">Completed</option>
+                <option value="ucomp">Uncompleted</option>
+            </select>
+        </div>
+
+        <div class="container">
+            <ul class="todo">
+            </ul>
+        </div>
+    </main>
+    
+
+    <script src="todo.js"></script>
+
+</body>
+</html>
